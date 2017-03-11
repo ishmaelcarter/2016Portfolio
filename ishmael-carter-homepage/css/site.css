@@ -1,0 +1,85 @@
+  body {
+    width: 760px;
+    vertical-align: top;
+    overflow-x: hidden;
+    margin: 12px 12px;
+    background-color: ;
+  }
+  
+
+
+  div.container {
+    min-height: 400px;
+  }  
+
+  .visible {
+  	display: block;
+  }
+
+  .hidden {
+  	display: none;
+  }
+  
+  .nav img {
+  	margin: 10px 14px 0px 10px;
+  }
+
+  h1 {
+    background-color: ;
+  }
+  
+  .breadcrumb {
+	padding: 0px; 
+	margin-bottom: 0px;
+	list-style: none;
+	background-color: transparent; 
+	border-radius: 4px;
+  }
+  
+  #embedTemplate {
+  	width:100%; 
+  	height: 80px; 
+  	font-size: .8em;
+  }
+  
+  .spinner {
+  	height: 40px;
+  	width: 100%;
+  	text-align: center;
+  }
+  
+  .spinner img {
+    height: 20px;
+  }
+  
+  .norows {
+  	text-align: center;
+  }
+
+  .resume {
+    font-size: 130%;
+    display: block;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    background-color: white;
+  }
+  
+  img.tutorial {
+  	border: 1px solid #aaa;
+  	background-color: #eee;
+  	padding: 12px;
+  	margin: 10px;
+  	width: 47%;
+  	display:inline-block;
+  }
+
+  @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  img.tutorial {
+    display: block;
+    width: 50%;
+  }
+}
